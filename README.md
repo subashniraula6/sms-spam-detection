@@ -1,6 +1,9 @@
 # SMS Spam Detection Pipeline Documentation
+This repository contains complete code for the project SMS Spam Detection. Mainly divided into 2 phases:
+1. [Development of Model](#development-of-model)
+2. [Deployment of the trained Model using Streamlit](#deployment-of-the-trained-model-using-streamlit)
 
-## Table of Contents
+## Development of Model
 1. [Data Loading](#data-loading)
 2. [Data Cleaning](#data-cleaning)
 3. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
@@ -8,7 +11,7 @@
 5. [Text Vectorization](#text-vectorization)
 6. [Model Building and Evaluation](#model-building-and-evaluation)
 7. [Saving Models](#saving-models)
-8. [Conclusion](#conclusion)
+9. [Conclusion](#conclusion)
 
 ---
 
@@ -234,10 +237,7 @@ pickle.dump(mnb, open('model.pkl', 'wb'))
 
 ---
 
-# Deploying the Trained Machine Learning Model Using Streamlit
-We design simple web application built with Streamlit that classifies input messages as "Spam" or "Not Spam" using a pre-trained machine learning model and a TF-IDF vectorizer.
-
-## Table of Contents
+## Deployment of the trained Model in an application using Streamlit
 1. [Overview](#overview)
 2. [Dependencies](#dependencies)
 3. [Preprocessing Function](#preprocessing-function)

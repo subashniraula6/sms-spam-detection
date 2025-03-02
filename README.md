@@ -237,7 +237,7 @@ pickle.dump(mnb, open('model.pkl', 'wb'))
 
 ---
 
-## Deployment of the trained Model in an application using Streamlit
+## Deployment of the trained Model using Streamlit
 1. [Overview](#overview)
 2. [Dependencies](#dependencies)
 3. [Preprocessing Function](#preprocessing-function)
